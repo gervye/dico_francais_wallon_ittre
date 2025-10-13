@@ -107,7 +107,7 @@ main h2 {
   margin-bottom: 1.5rem;
 }
 .home nav a {
-  display: block;
+  display: inline-block;
   margin-bottom: 0.25rem;
 }
 
