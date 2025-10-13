@@ -23,6 +23,14 @@ body {
   }
 }
 
+a {
+  color: #0969da;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #044289;
+}
+
 main {
   margin-bottom: 2rem;
 }
@@ -101,7 +109,6 @@ main h2 {
 .home nav a {
   display: block;
   margin-bottom: 0.25rem;
-  color: #222;
 }
 
 .reading-wallon p {
