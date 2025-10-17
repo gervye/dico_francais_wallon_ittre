@@ -31,10 +31,6 @@ a:hover {
   color: #044289;
 }
 
-main {
-  margin-bottom: 2rem;
-}
-
 p {
   margin-bottom: 0.75rem;
 }
@@ -46,6 +42,7 @@ p {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 header {
@@ -74,9 +71,6 @@ header .container {
 nav {
   padding: 1rem 1rem 0 1rem;
 }
-.nav-back {
-  margin-bottom: 1rem;
-}
 
 h1,
 h2,
@@ -86,12 +80,20 @@ h4 {
   margin-bottom: 1rem;
 }
 
-main {
-  padding: 0 1rem 1rem 1rem;
+section {
+  padding: 3rem 0;
+  background-color: #ffffff;
 }
-.home main {
+section:nth-of-type(even) {
+  background-color: #f9f9f3;
+}
+section:first-of-type {
   padding-top: 2rem;
 }
+section.footnotes {
+  background-color: #ffffff;
+}
+
 .home main p {
   margin: 0.5rem 0;
 }
@@ -104,7 +106,6 @@ main h2 {
 .home nav {
   margin-top: 0.5rem;
   padding: 0;
-  margin-bottom: 1.5rem;
 }
 .home nav a {
   display: inline-block;
@@ -122,7 +123,7 @@ main h2 {
 }
 
 .dico nav .alphabet-nav {
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 .dico nav .alphabet-nav a {
   color: #888;
@@ -265,7 +266,6 @@ main h2 {
 .footnotes {
   font-size: 0.9em;
   color: #666;
-  margin-top: 1rem;
   padding: 0 1rem;
   border-top: 1px solid #ccc;
 }
