@@ -232,7 +232,6 @@ main h2 {
 .texteAuteur {
   display: flex;
   gap: 0 2rem;
-  margin-bottom: 1rem;
 }
 @media (max-width: 800px) {
   .texteAuteur {
@@ -243,7 +242,11 @@ main h2 {
 .texteAuteur-right {
   flex: 1;
   text-align: justify;
-  margin-bottom: 1rem;
+}
+@media (max-width: 800px) {
+  .texteAuteur-left {
+    margin-bottom: 1rem;
+  }
 }
 .texteAuteur-single {
   text-align: justify;
@@ -272,9 +275,11 @@ main h2 {
 .footnotes ol {
   padding-left: 1rem;
 }
-
 .footnotes ol p {
   margin-bottom: 0;
+}
+section.footnotes {
+  padding-top: 0;
 }
 
 @media (max-width: 800px) {
