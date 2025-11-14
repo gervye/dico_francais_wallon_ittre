@@ -1,0 +1,13 @@
+# Robots.txt pour le Dictionnaire Français-Wallon d'Ittre
+# Les robots d'indexation sont les bienvenus
+
+User-agent: *
+Allow: /
+
+# Fréquence de visite suggérée
+# Ce dictionnaire étant un patrimoine culturel stable,
+# une visite mensuelle est suffisante
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://gervye.github.io/dico_francais_wallon_ittre/sitemap.xml
