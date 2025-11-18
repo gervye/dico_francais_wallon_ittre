@@ -26,7 +26,7 @@ jobs:
           REPO_NAME=$(basename ${{ github.repository }})
           BASE_URL="https://gervye.github.io/${REPO_NAME}/"
           for file in $(find site_to_publish -name '*.html'); do
-            # Add base tag just after <head> (overwrite or create the file)
+            # Add base tag just after <head>
             sed -i "/<head>/a <base href=\"$BASE_URL\">" "$file"
           done
 
